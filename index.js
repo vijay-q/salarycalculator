@@ -11,7 +11,7 @@ function calculateSalary(){
     }
     else{
         var salaryPerDay = totalSalary/totalDays;
-        var empSalary = (salaryPerDay*presentDays) + salaryPerDay ;
+        var empSalary = (salaryPerDay*presentDays);
         var finalempSalary = empSalary.toFixed(1)
         document.getElementById("finalsalary").innerHTML = finalempSalary
     }
